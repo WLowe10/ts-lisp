@@ -1,0 +1,13 @@
+{
+	"name": "ts-lisp",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"g:dev": "pnpm -r dev",
+		"g:build": "pnpm -r build",
+		"g:format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^3.3.3"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "@ts-lisp/cli",
+	"type": "module",
+	"scripts": {
+		"build": "tsup"
+	},
+	"bin": {
+		"ts-lisp": "./dist/index.js",
+		"ts-lispc": "./dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.1",
+		"tsup": "^8.2.4",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"@ts-lisp/core": "workspace:^",
+		"execa": "^9.3.1"
+	}
+}
